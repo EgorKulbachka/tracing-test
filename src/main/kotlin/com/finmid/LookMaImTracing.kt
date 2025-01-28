@@ -1,7 +1,6 @@
 package com.finmid
 
 import io.micrometer.core.instrument.kotlin.asContextElement
-import io.micrometer.observation.Observation
 import io.micrometer.observation.ObservationRegistry
 import io.micrometer.tracing.handler.DefaultTracingObservationHandler
 import io.micrometer.tracing.otel.bridge.OtelBaggageManager
